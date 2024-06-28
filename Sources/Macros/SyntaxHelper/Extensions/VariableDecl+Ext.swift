@@ -47,7 +47,6 @@ public extension VariableDeclSyntax {
             for accessor in accessors {
                 switch accessor.accessorSpecifier.tokenKind {
                 case .keyword(.willSet), .keyword(.didSet):
-                    // willset, didset 옵저버는 저장 프로퍼티
                     break
                     
                 default:
@@ -58,7 +57,6 @@ public extension VariableDeclSyntax {
             return true
             
         case .getter:
-            //
             return false
         }
     }

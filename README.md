@@ -8,6 +8,8 @@
 
 - [x] ~~[#URL]()~~ _(Deprecated)_
 
+<br>
+
 - [x] [@Codable]()
 - [x] [@CodableKey(_:)]()
 - [x] [@Deprecated]()
@@ -15,6 +17,10 @@
 - [x] [@DependencyOrganizer]()
 - [x] [@Wrapper]()
 - [x] [@WrapperView)]()
+- [x] [@Pulsing]()
+- [x] [@NoPulse]()
+
+<br> 
 
 ### Libraries
 

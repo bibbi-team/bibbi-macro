@@ -18,6 +18,8 @@ struct Bibbi_MacroPlugin: CompilerPlugin {
         WrapperViewMacro.self,
         URLMacro.self,
         DependencyOrganizerMacro.self,
-        DeprecatedMacro.self
+        DeprecatedMacro.self,
+        NoPulseMacro.self,
+        PulsingMacro.self
     ]
 }

@@ -7,4 +7,9 @@
 
 import MacrosInterface
 
+import ReactorKit
 
+@Pulsing
+struct State {
+    var name: String
+}
